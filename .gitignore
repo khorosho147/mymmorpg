@@ -66,3 +66,4 @@ ipch/
 /Src/Client/Temp
 /Src/Server/GameServer/GameServer/bin/Debug/Log
 /Src/Client/Logs
+Src/Server/GameServer/GameServer/App.config
