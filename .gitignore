@@ -56,3 +56,13 @@ ipch/
 *.vsp
 *.vspx
 
+/Src/Server/GameServer/.vs
+/Src/Client/.vscode
+/Src/Client/.vs
+/Src/Client/Log
+/Src/Client/Library
+/Src/Client/obj
+/Src/Client/Packages
+/Src/Client/Temp
+/Src/Server/GameServer/GameServer/bin/Debug/Log
+/Src/Client/Logs
