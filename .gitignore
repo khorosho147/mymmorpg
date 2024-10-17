@@ -67,3 +67,4 @@ ipch/
 /Src/Server/GameServer/GameServer/bin/Debug/Log
 /Src/Client/Logs
 Src/Server/GameServer/GameServer/App.config
+Src/Client/Assembly-CSharp.csproj
