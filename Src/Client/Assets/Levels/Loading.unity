@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: adf7795871ff61b4d956b1adb4ac00e2,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 213966400c0c35f408f3489ce732b323,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &358741609
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1453,6 +1453,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97de517dc5ce40c488a9a81df2b596c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  username: {fileID: 0}
+  password: {fileID: 0}
+  buttonLogin: {fileID: 0}
+  buttonRegister: {fileID: 0}
 --- !u!1 &582322191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1675,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: loading
+  m_Text: "\u6B63\u5728\u52A0\u8F7D"
 --- !u!222 &670522392
 CanvasRenderer:
   m_ObjectHideFlags: 0
