@@ -24,18 +24,16 @@ namespace GameServer
         {
             network = new NetService();
             network.Init(8000);
-            HelloWorldService.Instance.Init();
-
             DBService.Instance.Init();
+            UserService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
+
             return true;
         }
 
         public void Start()
         {
             network.Start();
-            HelloWorldService.Instance.Start();
-
             running = true;
             thread.Start();
         }
